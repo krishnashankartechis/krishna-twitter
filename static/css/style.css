@@ -1,0 +1,189 @@
+/*
+common
+***************************/
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: whitesmoke;
+}
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin:0 auto;
+    border-left: 0.5px solid rgb(236, 231, 231);
+    border-right:0.5px solid rgb(236, 231, 231);
+    background-color: lightgray;
+     
+}
+
+.posts li{
+    background-color: white;
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid rgb(236, 231, 231);
+    padding: 17px;
+}
+
+.posts li .logo{
+    flex-basis: 10%;
+}
+.posts li .name-body{
+    flex-basis: 90%;
+}
+
+h3{
+    text-align: center;
+    margin-right: 12px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*
+posts 
+***************************/
+
+.post_form{
+    padding:30px 40px;
+    border-bottom:1px solid rgb(236, 231, 231);
+    text-align: center;
+    background-color: white;
+}
+
+.input-name{
+    background-color: whitesmoke;
+    border:none;
+}
+.post_form input{
+    width: 70%;
+    padding:10px;
+    border: 0.5px solid rgb(236, 231, 231);
+
+}
+.post_form textarea{
+    width:70%;
+    padding:10px;
+}
+
+
+.posts li .logo img{
+    width: 60%;
+    border-radius: 30px;
+    background-color: lightgrey;
+}
+
+.posts li .name{
+    font-weight: bold;
+    font-size:20px;
+    padding:2px;
+} 
+
+.posts li .datetime{
+    color: gray;
+    font-size: 12px;
+    padding: 3px;
+} 
+.bodytext{
+    font-size:18px;
+    font-weight:lighter;
+    padding-bottom:20px;
+    padding-top: 20px;
+    padding-left: 4px;
+}
+ 
+
+.posts li .menu_icon{
+    width:20px;
+    position: absolute;
+    right:30px;
+    top: 18px;
+}
+
+.posts li .menu{
+    display: none  ;
+    position: absolute;
+    top:40px;
+    right:15px;
+    border: 1px solid rgb(236, 231, 231);
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+} 
+
+.posts li .menu a{
+    text-decoration: none;
+}
+
+
+
+/*  #####A!###### */
+
+
+.header-main {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+ 
+.header-main img{
+    width:60px;
+    margin-left: 15px;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 20px;
+}
+
+
+.like-button{
+    background-color: white;
+    border:none;
+    
+}
+.likes-count{
+    padding-top: 3px;
+    padding-left: 8px;
+    font-size: 14px;
+    color: rgb(128, 124, 124);
+
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    padding-left: 5px;
+}
+
+
+.tweet input{
+    width:35%;
+    border:none;
+    color:#00acee;
+}
+
+.tweet button{
+    border:none;
+    background-color: white;
+}
+
+.tweet img{
+    width:70px;
+    border:none;
+}
+#postgap{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.post-border {
+    width: 85%;
+    
+    
+}

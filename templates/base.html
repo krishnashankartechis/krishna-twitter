@@ -1,0 +1,17 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Twitterclone</title>
+        {% load static %}
+        <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+        {% comment %} #####A! {% endcomment %}
+        <link rel="icon" href="/static/img/twitter.png" /> {% load static %}
+        <link href=" {% static 'css/style.css' %}" rel="stylesheet" />
+
+    </head>
+
+    <body>
+        {% block content %}{{content}}{% endblock %}
+    </body>
+
+</html>
