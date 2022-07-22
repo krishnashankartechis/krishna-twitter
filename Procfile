@@ -1,0 +1,1 @@
+web: gunicorn krishna-twitter.wsgi --log-file -
